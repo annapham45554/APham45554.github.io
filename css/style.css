@@ -4,3 +4,119 @@
     box-sizing: border-box;
 }
 
+/* BODY */
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(56, 85, 37);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.45));
+    z-index: 100;
+}
+  
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.navbar > a {
+    align-self: center;
+    display: block;
+    width: 70%;
+}
+  
+/* .headerlogo {
+    display: block;
+    width: 11%; 
+    height: auto;
+    margin-left: 10%;
+    float: left; 
+} */
+  
+nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-self: center;
+}
+  
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0% 15%;
+}
+    
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 140%;
+    transition-property: text-decoration;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: none;
+}
+  
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #3595B7;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:rgb(56, 85, 37);
+    padding: 5%;
+}
+
+h3 {
+    font-style: normal ; 
+    text-decoration: none; 
+    font-family: "finalsix", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 140%;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.footerlist > li > a {
+    text-decoration: none;
+    color: #ffffff;  
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    padding: 0;
+    margin: 0;
+}
+
+.footerlist > li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.footercontent{
+    padding-left: 3%;
+    display: inline-block;
+}
+
+.footerlist > li > a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
