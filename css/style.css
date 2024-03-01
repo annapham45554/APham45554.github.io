@@ -123,33 +123,6 @@ p {
     display: flex;
 }
 
-/* .intro {
-    display: flex;
-    align-items: center;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.introcontent {
-    position: absolute;
-    margin-left: 25%;
-    margin-right: 20%; 
-}
-
-.introparagraph {
-    text-align: justify;
-    color: rgb(255, 254, 235);
-    padding-top: 5%;
-    font-size: 160%;
-} 
-
-.Anna {
-    border-radius: 50px;
-    width: 25%;
-} */
-
 .background {
     margin-left: 5%;
     margin-top: 3%;
