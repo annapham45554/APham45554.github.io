@@ -76,8 +76,8 @@ nav > ul > li > a:hover {
 }
 
 p {
-    font-family: "bigcity-grotesque-pro", sans-serif;
-    font-weight: 400;
+    font-family: "europa", sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 150%;
     color: rgb(83, 78, 48);
@@ -123,7 +123,7 @@ p {
     display: flex;
 }
 
-.intro {
+/* .intro {
     display: flex;
     align-items: center;
     margin-left: 7%;
@@ -138,17 +138,74 @@ p {
     margin-right: 20%; 
 }
 
-/* .introparagraph {
+.introparagraph {
     text-align: justify;
     color: rgb(255, 254, 235);
     padding-top: 5%;
     font-size: 160%;
-} */
+} 
 
 .Anna {
     border-radius: 50px;
     width: 25%;
+} */
+
+.background {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 70%;
+    /* padding: 1%;
+    background-color: rgb(250, 250, 239);
+     padding: auto; */
 }
+
+
+.rowbody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+  
+.textcontainer{
+    display: inline-block;
+    flex-grow: 3;
+    width: 50%;
+}
+  
+.heading {
+    color: rgb(71, 104, 71);
+    font-family: "bigcity-grotesque-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.pleft {
+    text-align: left;
+}
+  
+.bodyimagecontainer{
+    flex-grow: 1;
+    display: inline-block;
+}
+  
+.Annabox{
+    margin-left: 5%;
+    width: 25%;
+    margin-right: 5%;
+}
+  
+.Anna {
+    max-width: 1500px;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+  
 
 /* ABOUT */
 
