@@ -11,8 +11,8 @@ body {
     min-height: 100vh;
     background-image: url(../img/Mybamboo.png);
     background-repeat: no-repeat;
-    background-position-x: 140%;
-    background-size: 50em;
+    background-position-x: 190%;
+    background-size: 80em;
 }
 
 p {
@@ -228,36 +228,50 @@ nav > ul > li > a:hover {
     display: flex;
 }
 
-.DES200 {
-    padding-left: 5%;
-    padding-right: 5%;
+.Galrow {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: table-row;
+    grid-gap: 20px;
+}
+
+.Galtable{
+    display: grid;
 }
 
 .gallery {
-    border: 1px solid rgb(71, 104, 71);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: none;
+    cursor: pointer;
 }
   
 .gallery:hover {
-    border: 1px solid #a4c495;
+    transform: scale(110%);
 }
   
 .gallery img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
   
 .desc {
     padding: 15px;
     text-align: center;
     font-family: "europa", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    font-size: 100%;
+    font-size: 110%;
     color: rgb(83, 78, 48);
 }
   
 .Gallerycontainer {
-    padding: 0 6px;
+    padding: 0 1%;
     float: left;
     width: 24.99999%;
     display: block;
@@ -301,6 +315,7 @@ nav > ul > li > a:hover {
 footer {
     background-color:#213331;
     padding: 5%;
+    margin-top: 2%;
 }
 
 h3 {
