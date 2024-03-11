@@ -212,7 +212,7 @@ nav > ul > li > a:hover {
 }
 
 .background2{
-    margin-left: 14%;
+    margin-left: 13%;
     margin-top: 2%;
     margin-bottom: 3%;
     width: 70%;
@@ -304,9 +304,6 @@ nav > ul > li > a:hover {
 }
 
 .Interest {
-    /* /* max-width: 1500px;
-    width: 100%;
-    height: auto; */
     border-radius: 10px; 
     width: 400px;
     height: 400px;
@@ -450,3 +447,214 @@ h3 {
 
 
 /* RESPONSIVE */
+
+@media (max-width: 1400px) {
+
+.Anna {
+    border-radius: 10px; 
+    width: 300px;
+    height: 300px;
+}
+
+.Interest {
+    border-radius: 10px; 
+    width: 300px;
+    height: 300px;
+}
+
+}
+
+@media (max-width: 1350px) {
+    .gallery img {
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+@media (max-width: 1099px) {
+
+.Anna {
+    border-radius: 10px; 
+    width: 200px;
+    height: 200px;
+}
+
+.Interest {
+    border-radius: 10px; 
+    width: 250px;
+    height: 250px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+        
+}
+
+@media (max-width: 1000px) {
+    
+.Interest {
+        border-radius: 10px; 
+        width: 200px;
+        height: 200px;
+}
+
+.gallery img {
+    width: 160px;
+    height: 160px;
+}
+            
+}
+
+@media (max-width: 910px) {
+nav > ul {
+      height: 110px;
+      flex-direction: column;
+      text-align: center;
+} 
+  
+nav > ul > li > a {
+      font-size: 120%;
+}
+  
+.navbar {
+      width: 100%;
+      height: 15vh;
+      margin: auto;
+      align-items: center;
+}
+  
+.headerlogo {
+      width: 55%; 
+      height: auto;
+      margin-left: 45%;
+      float: center; 
+}
+  
+.contactformcontainer {
+      width: 70%;
+}
+
+.Homeoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.Aboutoverlay-text {
+    top: 50%;
+    left: 40%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.Galleryoverlay-text {
+    top: 50%;
+    left: 40%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.Interestoverlay-text {
+    top: 50%;
+    left: 40%;
+    font-size: 250%;
+    text-align: center;
+}
+
+.Contactoverlay-text {
+    top: 50%;
+    left: 40%;
+    font-size: 250%;
+    text-align: center;
+}
+
+    
+}
+
+@media (max-width: 700px) {
+
+    .Anna {
+        border-radius: 10px; 
+        width: 360px;
+        height: 300px;
+    }
+    
+    .rowbody{
+        flex-direction: column;
+    }
+        
+    .rowbody.reverse{
+        flex-direction: column-reverse;
+    }
+    
+    .textcontainer{
+        width: 100%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+      
+    }
+    
+    .Interest {
+        border-radius: 10px; 
+        width: 400px;
+        height: 400px;
+    }
+    
+    .gallery img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .contactformcontainer {
+        border-radius: 0;
+        width: 100%;
+        font-size: 100%;
+        margin: auto;
+      }
+
+      #contactintro {
+        font-weight: 300;
+        font-style: normal;
+        font-size: 150%;
+    }
+
+    .Homeoverlay-text {
+        font-size: 210%;
+    }
+
+    .Aboutoverlay-text {
+        font-size: 210%;
+    }
+    
+    .Galleryoverlay-text {
+        font-size: 210%;
+    }
+    
+    .Interestoverlay-text {
+        font-size: 210%;
+    }
+    
+    .Contactoverlay-text {
+        font-size: 210%;
+    }
+
+    .Gallerycontainer {
+        width: 49.99999%;
+    margin: 6px 0;
+    }
+
+    h3 {
+        font-size: 130%;
+    }
+    
+    .footerlist > li > a {
+        font-size: 110%;
+    }
+    
+    
+}
