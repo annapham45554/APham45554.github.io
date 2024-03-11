@@ -76,15 +76,14 @@ nav > ul > li > a {
     font-weight: 400;
     font-style: normal;
     font-size: 140%;
-    transition-property: text-decoration;
-    transition-duration: 1s;
+    transition-property: color;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: none;
 }
   
 nav > ul > li > a:hover {
-    text-decoration: underline;
-    text-decoration-color: #b7f19c;
+    color: #b7f19c;
 }
 
 /* HOME */
@@ -320,6 +319,66 @@ nav > ul > li > a:hover {
     display: flex;
 }
 
+#contactintro {
+    font-family: "europa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 170%;
+    color: rgb(83, 78, 48);
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #213331;
+    font-family: "finalsix", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    color: white;
+    padding: 1.5% 3%;
+    border: none;
+    border-radius: 50px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #8dc498;
+    color: rgb(0, 0, 0);
+}
+  
+.contactformcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 4%;
+    width: 40%;
+    /* margin: auto; */
+    margin-left: 15%;
+    margin-bottom: 5%;
+    font-family: "bigcity-grotesque-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+}
+  
+
 /* FOOTER */
 
 footer {
@@ -348,8 +407,8 @@ h3 {
     font-size: 120%;
     padding: 0;
     margin: 0;
-    transition-property: text-decoration;
-    transition-duration: 1s;
+    transition-property: color;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transition-delay: none;
 }
@@ -365,9 +424,7 @@ h3 {
 }
 
 .footerlist > li > a:hover{
-    color:white;
-    text-decoration: underline;
-    text-decoration-color: #b7f19c;
+    color: #b7f19c;
 }
 
 
